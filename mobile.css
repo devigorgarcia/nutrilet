@@ -27,11 +27,15 @@
     flex-direction: column;
     padding: 20px;
     justify-content: start;
-    
 }
 
-.conteudo-home-formulario {
-    margin-top: 15px;
+
+.conteudo-formulario {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.formulario-campo input {
     width: 100%;
 }
 
