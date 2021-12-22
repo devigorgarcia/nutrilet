@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Righteous&family=Roboto&family=Rubik+Mono+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(180deg, rgba(137, 136, 136, 0.3) 0%, rgba(234, 234, 234, 0) 100%);
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.cabecalho-logo {
+    height: 64px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Righteous', cursive;
+    color: #F47F7F;
+    font-weight: normal;
+    font-size: 24px;
+    transition: .3s;
+}
+
+a:hover {
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-shadow: #F47F7F 0.1em 0.1em 0.1em;
+}
+
+.conteudo {
+    border-top: 3px solid #F47F7F;
+}
+
+#conteudo-home {
+    background: url("bghome.png");
+    background-size: cover;
+    background-position: center;   
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.conteudo-home-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.conteudo-home-texto-titulo {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    max-width: 700px;
+}
+
+.conteudo-home-texto-titulo strong {
+    color: #F47F7F;
+    font-weight: bolder;
+}
+
+#let {
+    background: url("bglet.png");   
+    background-size: cover;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.conteudo-let-texto-prenome {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 35px;
+}
+
+.conteudo-let-texto-leticia {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: #F47F7F;
+}
+
+.conteudo-let-texto-paragrafo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    max-width: 1200px;
+    
+}
+
+.conteudo-let-imagem {
+    width: 300px;
+}
+
+#servicos {
+    background: linear-gradient(90deg, rgba(137, 136, 136, 0.3) 0%, rgba(234, 234, 234, 0) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    gap: 5px
+}
+
+.servicos-clinica {
+    height: 100vh;
+}
+
+.img-clinica {
+    width: 186px;
+}
+
+.servicos-clinica-texto {
+    background-color: whitesmoke;
+    border: 1px solid #afafaf;
+    box-sizing: border-box;
+    border-radius: 35px;
+    height:80%;
+}
+
+.servicos-clinica-texto-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #F47F7F;
+    text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+.servicos-clinica-texto-paragrafo {
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.servicos-reab {
+    height: 100vh;
+}
+
+.img-reab {
+    width: 186px;
+}
+
+.servicos-reab-texto {
+    background-color: whitesmoke;
+    border: 1px solid #afafaf;
+    box-sizing: border-box;
+    border-radius: 35px;
+    height:80%;
+}
+
+.servicos-reab-text-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    color: #F47F7F;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    padding-top: 20px;
+}
+
+.servicos-reab-text-paragrafo {
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.servicos-reeducao {
+    height: 100vh;
+}
+
+.reeducacao-img {
+    width: 186px;
+}
+
+.servicos-reeducacao-texto {
+    background-color: whitesmoke;
+    border: 1px solid #afafaf;
+    box-sizing: border-box;
+    border-radius: 35px;
+    height:80%;
+}
+
+.servicos-reeducacao-texto-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4em;
+    color: #F47F7F;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    padding-top: 20px;
+}
+
+.servicos-reeducacao-texto-paragrafo {
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.rodape {
+    background-color: black;
+    padding: 4px;
+}
+
+.igor {
+    color: whitesmoke;
+}
+

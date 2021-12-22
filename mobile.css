@@ -1,0 +1,61 @@
+#cabecalho {
+    flex-direction: column;
+}
+
+.cabecalho-menu {
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 0;
+    width: 100%;
+}
+
+.cabecalho-menu a:nth-child(2) {
+    border-top: 1px solid #F47F7F;
+    border-bottom: 1px solid #F47F7F;
+}
+
+.cabecalho-menu a:nth-child(4) {
+
+    border-top: 1px solid #F47F7F;
+    border-bottom: 1px solid #F47F7F;
+}
+
+#conteudo-home {
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: start;
+    
+}
+
+.conteudo-home-formulario {
+    margin-top: 15px;
+    width: 100%;
+}
+
+#let {
+    flex-direction: column;
+}
+
+#servicos{
+    flex-direction: column;
+
+}
+
+.servicos-clinica {
+    height: auto;
+}
+
+.servicos-clinica-texto {
+      height: auto;
+}
+
+.servicos-reab {
+    height: auto;
+}
+
+.servicos-reab-texto {
+    height: auto;
+}
